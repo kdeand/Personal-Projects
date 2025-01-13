@@ -45,7 +45,7 @@ void del(vector<string>& tasks) {
 		cout << "Invalid task number." << endl;
 		return;
 	} else {
-		tasks.erase(tasks.begin() + (index - 1)); 
+		tasks.erase(tasks.begin() + (index - 1)); //tasks.begin indicates the start of the program.
 		cout << "Task Deleted successfully.";
 		return;
 	}
